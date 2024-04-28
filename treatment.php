@@ -1,16 +1,11 @@
-<!DOCTYPE html>
-<html>
+<!-- header section strats -->
+<?php include './js/section/header.php';  ?>
+<!-- end header section -->
 
-<head>
-  <!-- Basic -->
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Mobile Metas -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Site Metas -->
-  <meta name="keywords" content="" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
+<!-- treatment section -->
+<?php include './js/section/about.php';  ?>
+<!-- end treatment section -->
+
 
   <title>Mico</title>
 
@@ -375,3 +370,8 @@
 </body>
 
 </html>
+=======
+<!-- footer section -->
+<?php include './js/section/footer.php';  ?>
+<!--end footer section -->
+

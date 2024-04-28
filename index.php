@@ -1,46 +1,32 @@
-<!DOCTYPE html>
-<html>
 
-<head>
-  <!-- Basic -->
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Mobile Metas -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Site Metas -->
-  <meta name="keywords" content="" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
+<!-- header section strats -->
+<?php include './js/section/header.php';  ?>
+<!-- end header section -->
 
-  <title>Mico</title>
+<!-- slider section -->
+<?php include './js/section/slider.php';  ?>
+<!-- end slider section -->
 
-  <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 
-  <!-- fonts style -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+<!-- book section -->
+<?php include './js/section/book.php';  ?>
+<!-- end book section -->
 
-  <!--owl slider stylesheet -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 
-  <!-- font awesome style -->
-  <link href="css/font-awesome.min.css" rel="stylesheet" />
-  <!-- nice select -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha256-mLBIhmBvigTFWPSCtvdu6a76T+3Xyt+K571hupeFLg4=" crossorigin="anonymous" />
-  <!-- datepicker -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css">
-  <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet" />
-  <!-- responsive style -->
-  <link href="css/responsive.css" rel="stylesheet" />
-  <?php include "./header-array.php" ?>
-  <?php include "./header-nav-array.php" ?>
-  <?php include "./slider-array.php" ?>
+<!-- about section -->
+<?php include './js/section/about.php';  ?>
+<!-- end about section -->
+
 
 
 </head>
 
-<body>
+
+
+<!-- treatment section -->
+<?php include './js/section/about.php';  ?>
+<!-- end treatment section -->
+
 
   <div class="hero_area">
     <!-- header section strats -->
@@ -63,10 +49,16 @@
               <img src="images/logo.png" alt="">
             </a>
 
+<!-- team section -->
+<?php include './js/section/team.php';  ?>
+<!-- end team section -->
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class=""> </span>
-            </button>
+
+
+<!-- client section -->
+<?php include './js/section/client.php';  ?>
+<!-- end client section -->
+
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <div class="d-flex mr-auto flex-column flex-lg-row align-items-center">
@@ -140,9 +132,16 @@
           </div>
         </div>
 
-    </section>
-    <!-- end slider section -->
-  </div>
+<!-- contact section -->
+<?php include './js/section/contact.php';  ?>
+<!-- end contact section -->
+
+<!-- info section -->
+<?php include './js/section/info.php';  ?>
+<!-- end info_section -->
+
+
+
 
 
   <!-- book section -->
@@ -735,3 +734,8 @@
 </body>
 
 </html>
+
+<!-- footer section -->
+<?php include './js/section/footer.php';  ?>
+<!--end footer section -->
+
