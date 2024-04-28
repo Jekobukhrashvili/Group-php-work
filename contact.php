@@ -46,29 +46,8 @@
       <div class="header_top">
         <div class="container">
         <?php 
-                    foreach ($infos as $info) {
-                      echo ' <div class="contact_nav">
-                        <a href="">
-                          <i class="fa fa-phone" aria-hidden="true"></i>
-                          <span>
-                            ' . $info['number'] . '
-                          </span>
-                        </a>
-                        <a href="">
-                          <i class="fa fa-envelope" aria-hidden="true"></i>
-                          <span>
-                          ' . $info['email'] . '
-                          </span>
-                        </a>
-                        <a href="">
-                          <i class="fa fa-map-marker" aria-hidden="true"></i>
-                          <span>
-                          ' . $info['location'] . '
-                          </span>
-                        </a>
-                      </div> ';
-                  }
-                ?>
+          info_array($infos)
+        ?>
         </div>
       </div>
       <div class="header_bottom">
@@ -144,18 +123,19 @@
       <div class="row">
         <div class="col-md-7">
           <div class="form_container">
-            <form action="">
+          <form action="./Get-in-touch.php"
+              method = "POST" >
               <div>
-                <input type="text" placeholder="Full Name" />
+                <input name="fullname" type="text" placeholder="Full Name" required />
               </div>
               <div>
-                <input type="email" placeholder="Email" />
+                <input name="email" type="email" placeholder="Email" required />
               </div>
               <div>
-                <input type="text" placeholder="Phone Number" />
+                <input name="phonenumber" type="number" placeholder="Phone Number" required />
               </div>
               <div>
-                <input type="text" class="message-box" placeholder="Message" />
+                <input name="message" type="text" class="message-box" placeholder="Message" required />
               </div>
               <div class="btn_box">
                 <button>
