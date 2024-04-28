@@ -8,8 +8,8 @@
           </a>
         </div>
         <div class="info_form">
-          <form action="">
-            <input type="email" placeholder="Your email">
+          <form action="./subscribe.php" method="POST">
+            <input name="subscribe" type="email" placeholder="Your email" required>
             <button>
               Subscribe
             </button>
@@ -100,8 +100,7 @@
                   <img src="images/post1.jpg" alt="">
                 </div>
                 <p>
-                  Normal
-                  distribution
+                  First distribution
                 </p>
               </div>
               <div class="post_box">
@@ -109,7 +108,7 @@
                   <img src="images/post2.jpg" alt="">
                 </div>
                 <p>
-                  Normal
+                  Second
                   distribution
                 </p>
               </div>
@@ -125,7 +124,7 @@
                   <img src="images/post3.jpg" alt="">
                 </div>
                 <p>
-                  Normal
+                  third
                   distribution
                 </p>
               </div>
@@ -134,7 +133,7 @@
                   <img src="images/post4.png" alt="">
                 </div>
                 <p>
-                  Normal
+                  fourth
                   distribution
                 </p>
               </div>
