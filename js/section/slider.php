@@ -5,40 +5,8 @@
     <div id="customCarousel1" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
         <?php 
-        foreach($sliders as $slider){
-            echo ' <div class="carousel-item active">
-            <div class="container ">
-            <div class="row">
-                <div class="col-md-6">
-                <div class="detail-box">
-                    <div class="play_btn">
-                    <button>
-                        <i class="fa fa-play" aria-hidden="true"></i>
-                    </button>
-                    </div>
-                    <h1>
-                    ' . $slider['name'] . ' <br>
-                    <span>
-                        Hospital
-                    </span>
-                    </h1>
-                    <p>
-                    ' . $slider['info'] . '
-                    </p>
-                    <a href="">
-                    ' . $slider['btn'] . '
-                    </a>
-                </div>
-                </div>
-                <div class="col-md-6">
-                <div class="img-box">
-                    <img src=" ' . $slider['img'] . ' " alt="">
-                </div>
-                </div>
-            </div>
-            </div>
-        </div>' ;
-        }
+                slider_array($sliders)
+        
         ?>  
 
     </div>

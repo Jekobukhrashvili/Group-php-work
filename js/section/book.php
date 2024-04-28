@@ -2,7 +2,7 @@
 <div class="container">
 <div class="row">
 <div class="col">
-    <form>
+    <form action="./Book-appointment.php" method="POST">
     <h4>
         BOOK <span>APPOINTMENT</span>
     </h4>
